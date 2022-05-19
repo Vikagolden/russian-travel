@@ -17,7 +17,6 @@
 @media screen and (max-width: 1023px) {
     .cover__title {
         margin: 115px 104px 0 104px;
-        width: 560px;
     }
 }
 
@@ -32,14 +31,11 @@
 @media screen and (max-width: 500px) {
     .cover__title {
         width: 288px;
-        font-size: 40px;
-        line-height: 45px;
     }
 }
 
 @media screen and (max-width: 424px) {
     .cover__title {
-        width: 288px;
         margin: 33px 16px 0 16px;
         font-size: 32px;
         line-height: 35px;

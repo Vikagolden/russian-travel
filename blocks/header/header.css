@@ -1,7 +1,7 @@
 .header {
     display: flex;
     max-width: 1184px;
-    padding: 28px 48px 0 72px;
+    padding: 28px 48px 0 48px;
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-end;
@@ -10,14 +10,13 @@
 @media screen and (max-width: 1023px) {
     .header {
         max-width: 928px;
+        padding: 28px 24px 0 24px;
     }
 }
 
 @media screen and (max-width: 767px) {
     .header {
         max-width: 720px;
-        padding-left: 24px;
-        padding-right: 24px;
     }
 }
 
