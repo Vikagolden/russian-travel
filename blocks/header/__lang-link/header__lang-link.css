@@ -6,11 +6,11 @@
     font-weight: 400;
     font-size: 24px;
     line-height: 28px;
+    margin-right: 18px;
 }
 
-.header__lang-link:hover {
-    transition: .7s ease;
-    opacity: .8;
+.header__lang-link:last-of-type {
+    margin: 0;
 }
 
 @media screen and (max-width: 424px) {
