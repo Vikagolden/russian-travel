@@ -1,4 +1,6 @@
 .footer {
+    display: flex;
+    justify-content: space-between;
     width: calc(100% - 48px * 2);
     margin: 92px auto 24px;
 }
@@ -7,6 +9,12 @@
     .footer {
         width: calc(100% - 24px * 2);
         margin-top: 88px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .footer {
+        flex-direction: column;
     }
 }
 
